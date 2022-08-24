@@ -1,0 +1,55 @@
+[
+    {
+        "itemType": "electronics",
+        "itemName": "Air pod pro",
+        "subCategory": [
+            "mobile accessories",
+            "ear phone",
+            "bluetooth device"
+        ],
+        "unitName": [
+            "quantity",
+            "price"
+        ],
+        "stockLimit": 12
+    },
+    {
+        "itemType": "electronics",
+        "itemName": "Canon 360",
+        "subCategory": [
+            "Camera",
+            "Digital Camera"
+        ],
+        "unitName": [
+            "quantity",
+            "price"
+        ],
+        "stockLimit": 23
+    },
+    {
+        "itemType": "cloths",
+        "itemName": "Gucci t-shirt",
+        "subCategory": [
+            "t-shirt",
+            "gents cloth"
+        ],
+        "unitName": [
+            "quantity",
+            "set"
+        ],
+        "stockLimit": 120 
+    },
+    {
+        "itemType": "babies",
+        "itemName": "Fishing Toy",
+        "subCategory": [
+            "toy",
+            "baby accessories"
+        ],
+        "unitName": [
+            "quantity",
+            "price"
+        ],
+        "stockLimit": 18
+    }
+]

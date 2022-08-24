@@ -1,0 +1,2 @@
+export const addBtn = 'text-purple-600 border-2 rounded-full border-purple-600 text-2xl font-bold px-2';
+export const removeBtn = 'text-white border-2 rounded-full border-red-500 text-lg font-bold bg-red-500 px-2';
