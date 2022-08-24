@@ -7,11 +7,11 @@ import ItemInput from '../Components/ItemInput';
 const ItemInfoCreate = () => {
     const navigate = useNavigate();
 
-    const { data, isLoading, refetch } = useQuery(['items'], () => fetch('http://localhost:5000/item').then(res => res.json()))
+    const { data, isLoading, refetch } = useQuery(['items'], () => fetch('https://items-curd-app-server.herokuapp.com/item').then(res => res.json()))
 
     const handleAddNewItem = () => {
         const newItem = { itemType: '', itemName: '', subCategory: [], unitName: [], stockLimit: 0 };
-        fetch('http://localhost:5000/item', {
+        fetch('https://items-curd-app-server.herokuapp.com/item', {
             headers: {
                 'content-type': 'application/json'
             },

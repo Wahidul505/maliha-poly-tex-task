@@ -28,7 +28,7 @@ const ItemInput = ({ item, refetch }) => {
             unitName: currentUnitName,
             stockLimit: currentStockLimit,
         };
-        fetch(`http://localhost:5000/item/${id}`, {
+        fetch(`https://items-curd-app-server.herokuapp.com/item/${id}`, {
             headers: {
                 'content-type': 'application/json'
             },
@@ -39,7 +39,7 @@ const ItemInput = ({ item, refetch }) => {
 
 
     const handleRemoveItem = (id) => {
-        fetch(`http://localhost:5000/item/${id}`, {
+        fetch(`https://items-curd-app-server.herokuapp.com/item/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
